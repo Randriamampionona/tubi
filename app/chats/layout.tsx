@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Chat',
 }
 
-const RootLayout = ({
+const ChatsLayout = ({
   children,
 }: {
   children: React.ReactNode
@@ -18,4 +18,4 @@ const RootLayout = ({
   )
 }
 
-export default RootLayout
+export default ChatsLayout

@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 type Props = {
 	children: React.ReactNode,
 	params: {
-		chatID: string
+		chatID: string | null
 	}
 }
-const ChatLayout = ({ children, params: { chatID } }: Props) => {
+const ChatLayout = ({ children, params: { chatID = null } }: Props) => {
 	return (
 		<main className='flex h-[calc(100vh-3.5rem)] w-full'>
 			{children}

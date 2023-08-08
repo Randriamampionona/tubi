@@ -12,7 +12,7 @@ const ChatsLayout = ({
 }) => {
   return (
     <main className='flex h-[calc(100vh-3.5rem)] w-full'>
-      <Sidebar />
+      {/* <Sidebar /> */}
       {children}
     </main>
   )

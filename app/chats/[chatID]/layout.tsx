@@ -15,7 +15,7 @@ const ChatLayout = ({ children, params: { chatID } }: Props) => {
 	return (
 		<main className='flex h-[calc(100vh-3.5rem)] w-full'>
 			{children}
-			<Chatbar chatID={chatID} />
+			{/* <Chatbar chatID={chatID} /> */}
 		</main>
 	)
 }

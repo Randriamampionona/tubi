@@ -7,8 +7,8 @@ type Props = {
 
 export const revalidate = 60
 
-const getProfile = async (chatID: string): Promise<ChatResponse> => {
-	const fetchData = await fetch(`${process.env.NEXT_BASE_URL}/api/chats/${chatID}`)
+const getProfile = async (id: string): Promise<ChatResponse> => {
+	const fetchData = await fetch(`${process.env.NEXT_BASE_URL}/api/chats/${id}`)
 	const res: Promise<ChatResponse> = fetchData.json()
 	return res
 }

@@ -28,13 +28,13 @@ export default function ShopLayout({
 }: {
 	children: React.ReactNode
 	params: {
-		chatid: string
+		chatID: string
 	}
 }) {
 	return (
 		<main className='flex h-[calc(100vh-3.5rem)] w-full'>
 			{children}
-			<Chatbar chatID={params.chatid} />
+			<Chatbar chatID={params.chatID} />
 		</main>
 	)
 }

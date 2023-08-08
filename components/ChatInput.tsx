@@ -2,7 +2,7 @@
 
 import { ChangeEvent, FormEvent, useState } from "react";
 import { FaPaperPlane } from "react-icons/fa"
-import { LuImagePlus, LuThumbsUp, LuSmilePlus } from "react-icons/lu"
+import { LuImagePlus, LuThumbsUp, LuSmilePlus, LuMic } from "react-icons/lu"
 import MediaInputPreview from "./MediaInputPreview";
 
 const initState: {
@@ -56,6 +56,9 @@ const ChatInput = () => {
                     </label>
                     <div className="flex items-center">
                         <span className="text-[20px] p-2 cursor-pointer hover:text-emerald-500"><LuSmilePlus size={20} /></span>
+                    </div>
+                    <div className="flex items-center">
+                        <span className="text-[20px] p-2 cursor-pointer hover:text-emerald-500"><LuMic size={20} /></span>
                     </div>
                 </div>
                 <div className="flex flex-grow items-center bg-zinc-900 rounded p-2 space-x-2">

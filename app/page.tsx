@@ -2,11 +2,9 @@ import Link from "next/link"
 
 const Home = () => {
   return (
-    <p>
-      <li><Link href={"/"}>home</Link></li>
-      <li><Link href={"/chats"}>Chats</Link></li>
-      <li><Link href={"/chats/2sfd8g4gs1dz51"}>Chat</Link></li>
-    </p>
+    <div className="flex items-end justify-center h-full">
+      <h1 className="text-center">Welcome to Tubi, <u>go to <Link href={"/chats"}>Chats</Link></u></h1>
+    </div>
   )
 }
 

@@ -12,7 +12,7 @@ module.exports = {
 			},
 			boxShadow: {
 				inputShadow: "0px 0px 5px 5px #00000038",
-				zeroFiveBlackShadow: "0px 0px 5px #000"
+				zeroBlackShadow: "0px 0px 25px #000",
 			},
 		},
 	},

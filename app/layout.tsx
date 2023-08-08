@@ -13,7 +13,7 @@ const RootLayout = ({
   children: React.ReactNode
 }) => {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body className='bg-zinc-950 text-zinc-50 h-screen'>
         <Navbar />
         {children}

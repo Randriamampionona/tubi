@@ -11,7 +11,7 @@ type Props = {
 		chatID: string
 	}
 }
-const RootLayout = ({ children, params: { chatID } }: Props) => {
+const ChatLayout = ({ children, params: { chatID } }: Props) => {
 	return (
 		<main className='flex h-[calc(100vh-3.5rem)] w-full'>
 			{children}
@@ -20,4 +20,4 @@ const RootLayout = ({ children, params: { chatID } }: Props) => {
 	)
 }
 
-export default RootLayout
+export default ChatLayout
